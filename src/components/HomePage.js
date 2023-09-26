@@ -14,6 +14,9 @@ class DataTable extends Component {
   componentDidMount() {
     this.fetchData();
     this.extractColumns();
+
+    console.log('filteredData:', this.state.filteredData);
+    console.log('columns:', this.state.columns);
   }
 
   fetchData = () => {

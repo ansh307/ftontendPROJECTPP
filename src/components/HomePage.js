@@ -110,7 +110,8 @@ class DataTable extends Component {
   };
   // searchQuery
   render() {
-    const { filteredData, columns } = this.state; // Assume 'columns' contains the list of column names
+    const { filteredData, columns } = this.state;
+    console.log(filteredData , columns) // Assume 'columns' contains the list of column names
    
 
     return (
